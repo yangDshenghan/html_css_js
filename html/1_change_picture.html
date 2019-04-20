@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vincent VanGogh</title>
+</head>
+<style>
+  .pic {width: 800px; height: 600px; margin-top: 20px; margin-right: 20px;}
+  .li {margin-right: 20px; margin-top: 20px; margin-bottom: 20px;}
+  :link{color: navy}
+  :visited{color: darkred}
+
+</style>
+<script src="../js/ptc.js"></script>
+<body>
+<h1 class="ti">Vincent VanGogh</h1>
+<div class="li">
+  <ul style="list-style-type: disc">
+    <li><a href="../img/20110204215237!Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" onclick=" change_pic_source(this);return false">The Starry Night</a></li>
+    <li><a href="../img/Almond.jpg" onclick="change_pic_source(this);return false">Almond Blossom</a></li>
+    <li><a href="../img/Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg" onclick="change_pic_source(this);return false">Wheatfield with Crows</a></li>
+  </ul>
+  <p><a href="../img/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045)%20-%20副本.jpg "onclick="change_pic_source(this);return false">Back</a> </p>
+</div>
+<div class="pic" >
+  <img id="img" src="../img/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045)%20-%20副本.jpg" alt="图片未能显示">
+</div>
+</body>
+</html>
